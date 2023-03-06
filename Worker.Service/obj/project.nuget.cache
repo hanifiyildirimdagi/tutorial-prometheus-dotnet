@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "w472uZQ8t/lZLMvk3moA5tg6OVpkqWaQ1NQetQEcylyckSwWRz/e/Kno/3MI0VY7rZjtIYURLEeT5XaDG0jmZQ==",
+  "success": true,
+  "projectFilePath": "/Users/hanifi/Workspace/tutorial-dotnet-prometheus/Worker.Service/Worker.Service.csproj",
+  "expectedPackageFiles": [
+    "/Users/hanifi/.nuget/packages/dotnetcore.cap/7.0.0/dotnetcore.cap.7.0.0.nupkg.sha512",
+    "/Users/hanifi/.nuget/packages/dotnetcore.cap.inmemorystorage/7.0.0/dotnetcore.cap.inmemorystorage.7.0.0.nupkg.sha512",
+    "/Users/hanifi/.nuget/packages/dotnetcore.cap.rabbitmq/7.0.0/dotnetcore.cap.rabbitmq.7.0.0.nupkg.sha512",
+    "/Users/hanifi/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "/Users/hanifi/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/hanifi/.nuget/packages/microsoft.extensions.fileproviders.abstractions/7.0.0/microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
+    "/Users/hanifi/.nuget/packages/microsoft.extensions.hosting.abstractions/7.0.0/microsoft.extensions.hosting.abstractions.7.0.0.nupkg.sha512",
+    "/Users/hanifi/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "/Users/hanifi/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "/Users/hanifi/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "/Users/hanifi/.nuget/packages/prometheus.client/5.2.0/prometheus.client.5.2.0.nupkg.sha512",
+    "/Users/hanifi/.nuget/packages/prometheus.client.abstractions/5.2.0/prometheus.client.abstractions.5.2.0.nupkg.sha512",
+    "/Users/hanifi/.nuget/packages/prometheus.client.metricpusher/3.1.0/prometheus.client.metricpusher.3.1.0.nupkg.sha512",
+    "/Users/hanifi/.nuget/packages/rabbitmq.client/6.4.0/rabbitmq.client.6.4.0.nupkg.sha512",
+    "/Users/hanifi/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/Users/hanifi/.nuget/packages/system.threading.channels/4.7.1/system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

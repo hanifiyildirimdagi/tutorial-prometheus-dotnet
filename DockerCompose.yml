@@ -1,0 +1,44 @@
+version: '3.4'
+
+services:
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    restart: unless-stopped
+    container_name: RabbitMQ
+    hostname: rabbitmq
+    ports:
+      - 5672:5672
+      - 15672:15672
+    environment:
+      RABBITMQ_DEFAULT_USER: admin
+      RABBITMQ_DEFAULT_PASS: admin
+      RABBITMQ_DATAPATH: /var/lib/rabbitmq/mnesia/
+    volumes:
+      - type: volume
+        source: tutorial_rabbitmq
+        target: /var/lib/rabbitmq/mnesia/
+        volume:
+          nocopy: true
+  prometheus:
+    image: prom/prometheus:v2.30.3
+    container_name: Prometheus
+    ports:
+      - 9000:9090
+    volumes:
+      - ./prometheus:/etc/prometheus
+      - tutorial_prometheus:/prometheus
+    command: --web.enable-lifecycle  --config.file=/etc/prometheus/prometheus.yml
+  pushgateway:
+    image: prom/pushgateway:latest
+    container_name: PrometheusPushGateway
+    ports:
+      - 9091:9091
+  grafana:
+    image: grafana/grafana-enterprise
+    container_name: Grafana
+    ports:
+      - 3000:3000
+          
+volumes:
+  tutorial_rabbitmq:
+  tutorial_prometheus:

@@ -1,0 +1,145 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/hanifi/Workspace/tutorial-dotnet-prometheus/Api.Service/Api.Service.csproj": {}
+  },
+  "projects": {
+    "/Users/hanifi/Workspace/tutorial-dotnet-prometheus/Api.Service/Api.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hanifi/Workspace/tutorial-dotnet-prometheus/Api.Service/Api.Service.csproj",
+        "projectName": "Api.Service",
+        "projectPath": "/Users/hanifi/Workspace/tutorial-dotnet-prometheus/Api.Service/Api.Service.csproj",
+        "packagesPath": "/Users/hanifi/.nuget/packages/",
+        "outputPath": "/Users/hanifi/Workspace/tutorial-dotnet-prometheus/Api.Service/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/hanifi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/hanifi/Workspace/tutorial-dotnet-prometheus/Common/Common.csproj": {
+                "projectPath": "/Users/hanifi/Workspace/tutorial-dotnet-prometheus/Common/Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/hanifi/Workspace/tutorial-dotnet-prometheus/Common/Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hanifi/Workspace/tutorial-dotnet-prometheus/Common/Common.csproj",
+        "projectName": "Common",
+        "projectPath": "/Users/hanifi/Workspace/tutorial-dotnet-prometheus/Common/Common.csproj",
+        "packagesPath": "/Users/hanifi/.nuget/packages/",
+        "outputPath": "/Users/hanifi/Workspace/tutorial-dotnet-prometheus/Common/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/hanifi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "DotNetCore.CAP": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "DotNetCore.CAP.InMemoryStorage": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "DotNetCore.CAP.RabbitMQ": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Prometheus.Client.MetricPusher": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
